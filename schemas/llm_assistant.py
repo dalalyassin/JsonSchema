@@ -6,8 +6,8 @@ class input(BaseModel):
 
 class Response(BaseModel):
     response: str
-    confidence: Optional[float] = None
-    total_tokens: Optional[int] = None
+    confidence:  float
+    total_tokens: int
     
 
   
